@@ -1,0 +1,27 @@
+<div class=' text-white px-0'>
+  <div class="text-center  bg-dark d-flex" id='optionDiv'>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('trans')">
+      <i class='fa fa-usd mx-2'></i><span class='optionBtnText'>See Transactions
+      </span></button>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('recents')">
+      <i class='fa fa-clock mx-2'></i><span class='optionBtnText'>Your recent Filed Returns
+      </span></button>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('calc')">
+      <i class='fa fa-pen mx-2'></i><span class='optionBtnText'>Calculate Tax
+      </span></button>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('resources')">
+      <i class='fa fa-book mx-2'></i><span class='optionBtnText'>Useful Resources
+      </span></button>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('profile')">
+      <i class='fa fa-user mx-2'></i><span class='optionBtnText'>User Profile
+      </span></button>
+    <button class="btn btn-dark d-block my-2   px-3 mx-auto" onclick="show('updates')">
+      <i class='fa fa-bell mx-2'></i><span class='optionBtnText'>Updates
+      </span></button>
+  </div>
+
+
+  <div id="mainDiv">
+    <%- include('profile') -%>
+  </div>
+</div>
